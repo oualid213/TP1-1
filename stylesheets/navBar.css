@@ -1,119 +1,24 @@
-.nav-bar-ul {
-    list-style: none; 
-    margin: 0;
-  }
-  
-  .nav-bar-ul li {
-    display: inline-block; 
-    margin-right: 10px; 
-    align-self: center;
-  }
-  
-  .nav-bar-ul li:last-child {
-    margin-right: 0; 
-  }
-
-  .nav-bar-ul>li > a {
-    text-align: center;
-  }
+  /*le margin left een boots ne veux pas marcher*/
   .margin-left-50prc{
-    margin-left: 50%;
-  }
-  .mobile-itm{
-    display: none;
-  }
-  button{
-    padding: 0.5em;
-    background-color: transparent;
-    border-radius: 1rem;
-  }
-  button{
-    border: 1px solid black;
-    cursor: pointer;
-  }
-
- .button-nav-black>button{
-  padding: 0.5em;
-  background-color: black;
-  border: 1px solid #000000;
-  border-radius: 1rem;
-  color: #ffffff;
-  }
-  .link-navBar>a{
-    text-decoration: none;
-    color: black;
-    font-weight: bold;
+    margin-left: 45%;
   }
   .margin-left-1{
     margin-left: 1rem;
   }
-  .centered-link {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.centered-link a {
-    display: flex;
-    align-items: center;
-    text-decoration: none;
-    color: #000; 
-}
-.inverse-col .col-6:first-child {
-  order: 2; 
-}
-
-.inverse-col .col-6:last-child {
-  order: 1; 
-}
-
-.centered-link svg {
-    margin-right: 5px; 
-}
-.padding-nav{
-  padding: 0.8rem 0 0.8rem 2rem;
-}
-.margin-right{
-  margin-right: 1rem;
-}
 .shadow-hr {
   border: none;
   height: 1px; 
   background: #ddd; 
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); 
 }
-.row-mobile>.mobile-display{
-  display: none;
-}
-.green-link{
-  text-decoration: none;
-  color: green;
-  font-weight:500;
+.margin-left-costum{
+margin-left: 4rem;
 }
 
 @media (max-width: 600px) {
 
-  .mobile-display-none>a,.mobile-display-none>button,.mobile-display-none>div,.mobile-display-none>LI{
-    display: none;
-  }
-  .inverse-col .col-6:first-child {
-    order: 1; 
-  }
-  
-  .inverse-col .col-6:last-child {
-    order: 2; 
-  }
-  .row-mobile>.mobile-display{
-    display:inline;
-   
-  }
-  .margin-left-mobile{
-    margin-left: auto;
-  }
-  .mobile-itm{
-    display: inline;
-  }
-  .padding-nav{
-    padding: 0;
-  }
+  .margin-left-costum{
+    margin-left: 0rem;
+    }
+    
 }

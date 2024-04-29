@@ -1,0 +1,22 @@
+
+
+/* Style the unordered list */
+
+h2{
+    font-size: xx-large;
+}
+h1{
+    font-size: 50px;
+}
+@media (max-width: 600px) {
+   .margin-left-titl{
+    margin-left: 0;
+   }
+
+
+    .texte-container{
+        padding-inline: 02px;
+    }
+   
+    }
+  

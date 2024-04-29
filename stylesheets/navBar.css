@@ -1,0 +1,24 @@
+  /*le margin left een boots ne veux pas marcher*/
+  .margin-left-50prc{
+    margin-left: 45%;
+  }
+  .margin-left-1{
+    margin-left: 1rem;
+  }
+.shadow-hr {
+  border: none;
+  height: 1px; 
+  background: #ddd; 
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); 
+}
+.margin-left-costum{
+margin-left: 4rem;
+}
+
+@media (max-width: 600px) {
+
+  .margin-left-costum{
+    margin-left: 0rem;
+    }
+    
+}

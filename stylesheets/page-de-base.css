@@ -1,0 +1,30 @@
+
+
+
+.container2 {
+    margin-inline: auto;
+    max-width: 1440px;
+    min-width: auto;
+    padding-inline: 32px;
+}
+
+.size-img{
+    width:700px; 
+    height:100%;
+}
+
+.background-color-green{
+    background-color:  hsl(144, 68%, 84%);
+}
+@media screen and (max-width: 600px) {
+    /* je n'ai pas pu mettre ces éléments avec boots */
+    .size-img {
+        width: 100%;
+        height: 100%;
+    }
+    /*je ne comprend pas pourquoi le ml-n ne marche pas sur tous les balises */
+    .margin-left-mobile{
+        margin-left: auto;
+      }
+   
+}
